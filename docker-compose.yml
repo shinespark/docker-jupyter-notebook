@@ -2,7 +2,7 @@ version: '3'
 
 services:
   jupyter:
-    image: jupyter/datascience-notebook
+    build: ./jupyter
     environment:
       - JUPYTER_ENABLE_LAB=yes
     ports:
